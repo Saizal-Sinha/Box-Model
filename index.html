@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <head>
+        <title>Box Model</title>
+     <style >
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:LemonChiffon;
+            align:center ;
+            }
+            .box{
+                margin:110px 150px;
+                padding:50px 40px;
+                border:20px solid IndianRed;
+                width:610px;
+                height:280px;
+                text-align:center;
+                background-color: Linen;
+                border-radius: 10px;
+            }
+            .Container  {
+                background-color:DarkSeaGreen;
+                border: 3px solid IndianRed;
+                margin:25px 19px;
+                padding: 10px 19px;
+                border-radius: 20px;
+                box-sizing: border-box;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "box">
+            <div class = "Container ">
+            <h3>CSS Box Model</h3>
+            <p id="first">The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.</p>
+         </div>
+
+            <div class = "Container ">
+             <h3>Explanation of the different parts:</h3>
+              <ul id="Second">
+                <li>Content - The content of the box, where text and images appear</li>
+                <li>Padding - Clears an area around the content. The padding is transparent</li>
+                <li>Border - A border that goes around the padding and content</li>
+                <li>Margin - Clears an area outside the border. The margin is transparent</li>
+              </ul>
+        </div>
+    </div>
+</body>
+</html>
